@@ -403,6 +403,9 @@ if TYPE_CHECKING:
     from langchain_community.document_loaders.s3_file import (
         S3FileLoader,
     )
+    from langchain_community.document_loaders.s3_file import (
+        SaldorLoader,
+    )
     from langchain_community.document_loaders.scrapfly import (
         ScrapflyLoader,
     )
@@ -657,6 +660,7 @@ _module_lookup = {
     "RocksetLoader": "langchain_community.document_loaders.rocksetdb",
     "S3DirectoryLoader": "langchain_community.document_loaders.s3_directory",
     "S3FileLoader": "langchain_community.document_loaders.s3_file",
+    "SaldorLoader": "langchain_community.document_loaders.saldor",
     "ScrapflyLoader": "langchain_community.document_loaders.scrapfly",
     "SQLDatabaseLoader": "langchain_community.document_loaders.sql_database",
     "SRTLoader": "langchain_community.document_loaders.srt",
